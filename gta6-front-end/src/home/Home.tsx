@@ -2,8 +2,6 @@ import { useState } from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import styles from './Home.module.css'
 
-const isSuccess = false
-
 interface IFormState {
 	name: string
 	email: string
